@@ -252,7 +252,6 @@ Future Enhancements
 -----------------------------
 License
 -----------------------------
-This project is developed for academic and learning purposes.
 
 © 2025 — Harsh
 RA2211033010068
