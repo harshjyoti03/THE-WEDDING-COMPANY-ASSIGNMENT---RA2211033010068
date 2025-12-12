@@ -13,9 +13,9 @@ Architecture Overview:
 -----------------------------
 Project Details
 -----------------------------
-Developed By        : Harsh
-Registration Number : RA2211033010068
-Email ID            : hz0620@srmist.edu.in
+- Developed By        : Harsh
+- Registration Number : RA2211033010068
+- Email ID            : hz0620@srmist.edu.in
 
 
 -----------------------------
