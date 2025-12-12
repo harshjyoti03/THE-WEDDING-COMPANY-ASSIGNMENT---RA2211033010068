@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="row">
+  <div class="col-12 col-lg-8">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Create Organization</h5>
+        <form id="createOrgForm" class="vstack gap-2">
+          <input class="form-control" id="createOrgName" placeholder="Organization name" required />
+          <input type="email" class="form-control" id="createEmail" placeholder="Admin email" required />
+          <input type="password" class="form-control" id="createPassword" placeholder="Admin password" required />
+          <button class="btn btn-primary" type="submit">Create</button>
+        </form>
+        <div id="createOrgResult" class="mt-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/create.js"></script>
+{% endblock %}

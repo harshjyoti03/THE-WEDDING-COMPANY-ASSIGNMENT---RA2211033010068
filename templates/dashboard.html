@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="row g-4">
+  <div class="col-12 col-lg-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Organization Details</h5>
+        <form id="getOrgForm" class="vstack gap-2">
+          <input class="form-control" id="getOrgName" placeholder="Organization name" required />
+          <button class="btn btn-secondary" type="submit">Get</button>
+        </form>
+        <pre id="getOrgResult" class="mt-2"></pre>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Rename Organization</h5>
+        <form id="updateOrgForm" class="vstack gap-2">
+          <input class="form-control" id="updateOrgName" placeholder="New organization name" required />
+          <input type="email" class="form-control" id="updateEmail" placeholder="Admin email" required />
+          <input type="password" class="form-control" id="updatePassword" placeholder="Admin password" required />
+          <button class="btn btn-warning" type="submit">Update</button>
+        </form>
+        <div id="updateOrgResult" class="mt-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Delete Organization</h5>
+        <form id="deleteOrgForm" class="vstack gap-2">
+          <input class="form-control" id="deleteOrgName" placeholder="Organization name" required />
+          <button class="btn btn-danger" type="submit">Delete</button>
+        </form>
+        <div id="deleteOrgResult" class="mt-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/dashboard.js"></script>
+{% endblock %}

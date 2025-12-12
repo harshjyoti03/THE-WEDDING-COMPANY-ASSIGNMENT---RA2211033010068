@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="row g-4">
+  <div class="col-12 col-lg-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Welcome</h5>
+        <p class="text-muted">Create a new organization or log in to manage an existing one.</p>
+        <div class="d-flex gap-2">
+          <a class="btn btn-primary" href="/create">Create Organization</a>
+          <a class="btn btn-success" href="/login">Admin Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Dashboard</h5>
+        <p class="text-muted">Access org details, rename, or delete from the dashboard.</p>
+        <a class="btn btn-secondary" href="/dashboard">Open Dashboard</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}{% endblock %}

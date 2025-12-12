@@ -1,0 +1,8 @@
+body{background:#f6f8fb}
+.card{box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.card-title{margin-bottom:12px}
+#loginStatus{font-size:.9rem}
+.success{color:#0a7d16}
+.error{color:#b00020}
+.muted{color:#6c757d}
+
