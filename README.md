@@ -1,6 +1,6 @@
-# ============================================================
+ ============================================================
 # THE WEDDING COMPANY – Backend Assignment
-# ============================================================
+ ============================================================
 
 A Multi-Tenant Organization Management Service built using
 Flask and MongoDB with secure JWT-based authentication.
